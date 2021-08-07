@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'IranSans';
+  font-weight: bold;
+  font-style: normal;
+  src: url('./Fonts/IranSans-Bold.woff2') format('woff2'), url('./Fonts/IranSans-Bold.woff') format('woff'),
+    local('IranSans'), local('Iran Sans'), local('iransans'), local('iran sans');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'IranSansNumbers';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./Fonts/IRANSansWeb(FaNum).woff2') format('woff2'), url('./Fonts/IRANSansWeb(FaNum).woff') format('woff'),
+    url('./Fonts/IRANSansWeb(FaNum).ttf') format('truetype'),
+    url('./Fonts/IRANSansWeb(FaNum).eot') format('embedded-opentype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'IranSansNumbers', IRANSans, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.check-item {
+  margin-bottom: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.site-content .site-layout-background {
+  background: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.site-content {
+  padding: 5%;
 }
+
+footer {
+  background-color: #d4eaff;
+}
+
+.experiment-main-column {
+  padding: 5%;
+}
+
+
+
