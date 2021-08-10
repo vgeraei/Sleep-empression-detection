@@ -766,6 +766,11 @@ function Experiment() {
                 message.success("وضعیت با موفقیت ارسال شد.");
 
                 let tempTime = Date.now();
+                console.log(
+                  tempTime - timestampCheckpoint,
+                  tempTime,
+                  timestampCheckpoint
+                );
                 if (tempTime - timestampCheckpoint > 30 * 60 * 1000) {
                   timestampCheckpoint = Date.now();
                   setIsModalVisible(true);
