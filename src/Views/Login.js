@@ -90,7 +90,7 @@ function Login() {
           <Divider />
           <CustomCheckItem
             text="نداشتن خستگی مضاعف"
-            tip="مثال: خواب‌آلودگی شدید."
+            tip="در مقیاس ده نمره‌ای خستگی  بیشتر از نمره ۳"
           />
           <CustomCheckItem text="عدم مصرف نوشیدنی‌های حاوی کافئین" />
           <CustomCheckItem text="عدم مصرف داروهای تاثیرگذار در خواب" />

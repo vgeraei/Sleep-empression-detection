@@ -593,10 +593,10 @@ function Experiment() {
       })
       .then((response) => {
         // setRegisterLoading(false);
-        message.success("وضعیت خوابالودگی با موفقیت ثبت شد.");
+        message.success("وضعیت خواب آلودگی با موفقیت ثبت شد.");
       })
       .catch(() => {
-        message.warning("بروز مشکل در ثبت وضعیت خوابالودگی");
+        message.warning("بروز مشکل در ثبت وضعیت خواب آلودگی");
       });
   };
 
@@ -882,7 +882,7 @@ function Experiment() {
           </Paragraph>
           <Divider />
           <CustomCheckItem text="صورت شما توسط دوربین تشخیص داده شده باشد." />
-          <CustomCheckItem text="هر ۳۰ دقیقه برای اعلام وضعیت خوابالودگی به صفحه مراجعه کنید." />
+          <CustomCheckItem text="هر ۳۰ دقیقه برای اعلام وضعیت خواب آلودگی به صفحه مراجعه کنید." />
           <CustomCheckItem text="در هنگام آزماش به روال عادی استفاده از رایانه خود بپردازید. " />
         </Col>
         <Col span={12} className="experiment-main-column">
@@ -908,7 +908,7 @@ function Experiment() {
       </Row>
 
       <Modal
-        title="سطح خوابالودگی"
+        title="سطح خواب آلودگی"
         visible={isModalVisible}
         closable={false}
         footer={[
@@ -918,7 +918,7 @@ function Experiment() {
         ]}
       >
         <p>
-          لطفا از ۱ (کاملا آگاه) تا ۱۰ (بسیار خوابالود) به سطح خوابالودگی خود
+          لطفا از ۱ (کاملا آگاه) تا ۱۰ (بسیار خوابالود) به سطح خواب آلودگی خود
           نمره دهید.
         </p>
         <Slider
